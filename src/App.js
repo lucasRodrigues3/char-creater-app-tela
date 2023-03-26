@@ -880,7 +880,7 @@ export default function NestedGrid() {
 
       <Box sx={{ alignItems: "center", marginTop: "50px", width: '50%' }}>
 
-        <Grid container spacing={1}>        
+        <Grid container spacing={2}>        
           <Grid >
             <Grid><Item sx={{padding: '18px'}}>Vitalidade</Item></Grid>
             <Grid><Item sx={{padding: '18px'}}>{vitalidade}</Item></Grid>
@@ -943,25 +943,25 @@ export default function NestedGrid() {
 
         <Grid container spacing={1}>        
           <Grid >
-            <Grid><Item sx={{padding: '18px'}}>Conhecimentos</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Acadêmicos</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Arcano</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Armas Brancas</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Artilharia</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Briga</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Esportes</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Esquiva</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Furtividade</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Investigação</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Manha</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Medicina</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Ocultismo</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Ofícios</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Prontidão</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Rituais</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Segurança</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Sobrevivência</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>Tecnologia</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Conhecimentos</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Acadêmicos</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Arcano</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Armas Brancas</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Artilharia</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Briga</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Esportes</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Esquiva</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Furtividade</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Investigação</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Manha</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Medicina</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Ocultismo</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Ofícios</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Prontidão</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Rituais</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Segurança</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Sobrevivência</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}}  style={{ width: '100px'}}>Tecnologia</Item></Grid>
           </Grid>
 
           <Grid>
@@ -988,46 +988,46 @@ export default function NestedGrid() {
 
           <Grid>
             <Grid></Grid><Item sx={{padding: '18px'}}>....</Item>
-            <Grid><Item><IconButton onClick={handleAcademicosDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleArcanoDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleArmasBrancasDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleArtilhariaDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleBrigaDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleEsportesDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleEsquivaDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleFurtividadeDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleInvestigacaoDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleManhaDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleMedicinaDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleOcultismoDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleOficiosDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleProntidaoDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleRituaisDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleSegurancaDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleSobrevivenciaDecrement}><RemoveIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleTecnologiaDecrement}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleAcademicosDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleArcanoDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleArmasBrancasDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleArtilhariaDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleBrigaDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleEsportesDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleEsquivaDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleFurtividadeDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleInvestigacaoDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleManhaDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleMedicinaDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleOcultismoDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleOficiosDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleProntidaoDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleRituaisDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleSegurancaDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleSobrevivenciaDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleTecnologiaDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
           </Grid>
 
           <Grid>
             <Grid></Grid><Item sx={{padding: '18px'}}>....</Item>
-            <Grid><Item><IconButton onClick={handleAcademicosIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleArcanoIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleArmasBrancasIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleArtilhariaIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleBrigaIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleEsportesIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleEsquivaIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleFurtividadeIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleInvestigacaoIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleManhaIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleMedicinaIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleOcultismoIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleOficiosIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleProntidaoIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleRituaisIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleSegurancaIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleSobrevivenciaIncrement}><AddIcon /></IconButton></Item></Grid>
-            <Grid><Item><IconButton onClick={handleTecnologiaIncrement}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleAcademicosIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleArcanoIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleArmasBrancasIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleArtilhariaIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleBrigaIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleEsportesIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleEsquivaIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleFurtividadeIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleInvestigacaoIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleManhaIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleMedicinaIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleOcultismoIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleOficiosIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleProntidaoIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleRituaisIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleSegurancaIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleSobrevivenciaIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
+            <Grid><Item><IconButton onClick={handleTecnologiaIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
           </Grid>
 
         </Grid>
