@@ -966,24 +966,24 @@ export default function NestedGrid() {
 
           <Grid>
             <Grid></Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>Pontos</Item>
-            <Grid><Item sx={{padding: '18px'}}>{academicos}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{arcano}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{armasBrancas}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{artilharia}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{briga}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{esportes}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{esquiva}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{furtividade}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{investigacao}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{manha}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{medicina}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{ocultismo}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{oficios}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{prontidao}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{rituais}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{seguranca}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{sobrevivencia}</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{tecnologia}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{academicos}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{arcano}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{armasBrancas}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{artilharia}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{briga}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{esportes}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{esquiva}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{furtividade}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{investigacao}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{manha}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{medicina}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{ocultismo}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{oficios}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{prontidao}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{rituais}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{seguranca}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{sobrevivencia}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>{tecnologia}</Item></Grid>
           </Grid>
 
           <Grid>
