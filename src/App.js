@@ -880,25 +880,25 @@ export default function NestedGrid() {
 
       <Box sx={{ alignItems: "center", marginTop: "50px", width: '50%' }}>
 
-        <Grid container spacing={2}>        
+        <Grid container spacing={1}>        
           <Grid >
-            <Grid><Item sx={{padding: '18px'}}>Vitalidade</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{vitalidade}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '80px'}}>Vitalidade</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '80px'}}>{vitalidade}</Item></Grid>
           </Grid>
 
           <Grid>
-            <Grid></Grid><Item sx={{padding: '18px'}}>Mana</Item>
-            <Grid><Item sx={{padding: '18px'}}>{mana}</Item></Grid>
+            <Grid></Grid><Item sx={{padding: '18px'}} style={{ width: '70px'}}>Mana</Item>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '70px'}}>{mana}</Item></Grid>
           </Grid>
 
           <Grid>
-            <Grid></Grid><Item sx={{padding: '18px'}}>Stamina</Item>
-            <Grid><Item sx={{padding: '18px'}}>{stamina}</Item></Grid>
+            <Grid></Grid><Item sx={{padding: '18px'}} style={{ width: '70px'}}>Stamina</Item>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '70px'}}>{stamina}</Item></Grid>
           </Grid>
 
           <Grid>
-            <Grid></Grid><Item sx={{padding: '18px'}}>FDV</Item>
-            <Grid><Item sx={{padding: '18px'}}>{fdv}</Item></Grid>
+            <Grid></Grid><Item sx={{padding: '18px'}} style={{ width: '70px'}}>FDV</Item>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '70px'}}>{fdv}</Item></Grid>
           </Grid>
 
 
@@ -907,35 +907,35 @@ export default function NestedGrid() {
 
         <Grid container spacing={1}>        
           <Grid >
-            <Grid><Item sx={{padding: '18px'}}>Primários</Item></Grid>
-            <Grid><Item sx={{padding: '18px'}}>{primario}</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '70px'}}>Primários</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '70px'}}>{primario}</Item></Grid>
           </Grid>
 
           <Grid>
-            <Grid></Grid><Item sx={{padding: '18px'}}>Secundário</Item>
-            <Grid><Item sx={{padding: '18px'}}>{secundario}</Item></Grid>
+            <Grid></Grid><Item sx={{padding: '18px'}} style={{ width: '70px'}}>Secundário</Item>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '70px'}}>{secundario}</Item></Grid>
           </Grid>
 
           <Grid>
-            <Grid></Grid><Item sx={{padding: '18px'}}>Bônus</Item>
-            <Grid><Item sx={{padding: '18px'}}>{bonus}</Item></Grid>
+            <Grid></Grid><Item sx={{padding: '18px'}} style={{ width: '70px'}}>Bônus</Item>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '70px'}}>{bonus}</Item></Grid>
           </Grid>
         </Grid>
 
 
         <Grid container spacing={1}>        
           <Grid >
-            <Grid><Item sx={{padding: '18px'}}>Level</Item></Grid>
+            <Grid><Item sx={{padding: '18px'}} style={{ width: '60px'}}>Level</Item></Grid>
             <Grid><Item sx={{padding: '18px'}}>{level}</Item></Grid>
           </Grid>
 
           <Grid>
-            <Grid></Grid><Item sx={{padding: '18px'}}>Atributo Disponível</Item>
+            <Grid></Grid><Item sx={{padding: '18px'}} style={{ width: '140px'}}>Atributo Disponível</Item>
             <Grid><Item sx={{padding: '18px'}}>{atributoLevel}</Item></Grid>
           </Grid>
 
           <Grid>
-            <Grid></Grid><Item sx={{padding: '18px'}}>Conhecimento Disponível</Item>
+            <Grid></Grid><Item sx={{padding: '18px'}} style={{ width: '170px'}}>Conhecimento Disponível</Item>
             <Grid><Item sx={{padding: '18px'}}>{conhecimento}</Item></Grid>
           </Grid>
 
@@ -965,7 +965,7 @@ export default function NestedGrid() {
           </Grid>
 
           <Grid>
-            <Grid></Grid><Item sx={{padding: '18px'}}>Pontos</Item>
+            <Grid></Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>Pontos</Item>
             <Grid><Item sx={{padding: '18px'}}>{academicos}</Item></Grid>
             <Grid><Item sx={{padding: '18px'}}>{arcano}</Item></Grid>
             <Grid><Item sx={{padding: '18px'}}>{armasBrancas}</Item></Grid>
@@ -987,7 +987,7 @@ export default function NestedGrid() {
           </Grid>
 
           <Grid>
-            <Grid></Grid><Item sx={{padding: '18px'}}>....</Item>
+            <Grid></Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>....</Item>
             <Grid><Item><IconButton onClick={handleAcademicosDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
             <Grid><Item><IconButton onClick={handleArcanoDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
             <Grid><Item><IconButton onClick={handleArmasBrancasDecrement} style={{ width: '40px', height: '40px' }}><RemoveIcon /></IconButton></Item></Grid>
@@ -1009,7 +1009,7 @@ export default function NestedGrid() {
           </Grid>
 
           <Grid>
-            <Grid></Grid><Item sx={{padding: '18px'}}>....</Item>
+            <Grid></Grid><Item sx={{padding: '18px'}} style={{ width: '40px', height: '18px' }}>....</Item>
             <Grid><Item><IconButton onClick={handleAcademicosIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
             <Grid><Item><IconButton onClick={handleArcanoIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
             <Grid><Item><IconButton onClick={handleArmasBrancasIncrement} style={{ width: '40px', height: '40px' }}><AddIcon /></IconButton></Item></Grid>
